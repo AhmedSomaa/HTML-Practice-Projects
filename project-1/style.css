@@ -1,0 +1,131 @@
+/* ----- HTML ----- */
+html{
+    background-color: #0b0b0d;
+}
+
+/* ----- First div ----- */
+
+#first-div{
+    background-color: #0b0b0d;
+    min-height: 100vh;
+}
+
+
+#name{
+    color: #f0ece2;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    margin-top: 20vh;
+    font-family: 'Tajawal', sans-serif;
+    font-size: 80px;
+}
+
+#date{
+    color: #f0ece2;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    font-family: 'Tajawal', sans-serif;
+    font-size: 80px;
+}
+
+#play-button{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 80px;
+    max-height: 80px;
+    margin-top: 20vh;
+}
+
+/* ----- Second div ----- */
+
+#second-div {
+    background-color: #f0ece2;
+    min-height: 60vh;
+    position: absolute;
+    top: 100vh;
+    left: 0;
+    width: 100%;
+    min-height: 80vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+#quote{
+    color: #0b0b0d;
+    order: 1;
+    flex-grow: 1;
+    min-width: 40%;
+    margin-top: 30vh;
+    font-size: 50px;
+    font-family: 'Tajawal', sans-serif;
+    text-align: center;
+    margin-bottom: 25vh;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#portrait{
+    order: 2;
+    flex-grow: 1;
+    min-width: 45%;
+    align-self: flex-end;
+    max-width: 60px;
+    box-sizing: border-box;
+    float: right;
+}
+
+/* ----- Third div ----- */
+
+#third-div {
+    background-color: #0b0b0d;
+    min-height: 60vh;
+    position: absolute;
+    top: 180vh;
+    left: 0;
+    width: 100%;
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+#biography{
+    color: #f0ece2;
+    order: 1;
+    flex-grow: 1;
+    align-self: flex-end;
+    float: right;
+    font-size: 80px;
+    font-family: 'Tajawal', sans-serif;
+    margin-right: 20vh;
+    margin-top: 10vh;
+}
+
+#info{
+    order: 2;
+    flex-grow: 79;
+    align-self: flex-end;
+    float: right;
+    font-size: 30px;
+    font-family: 'Tajawal', sans-serif;
+    margin-right: 22vh;
+    color: #f0ece2;
+    text-align: justify;
+    margin-left: 20vh;
+    direction: rtl;
+
+}
+
+li{
+    direction: rtl;
+    padding: 10px;
+}
