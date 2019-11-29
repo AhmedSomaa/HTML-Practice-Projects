@@ -1,0 +1,73 @@
+/* ----- HTML ----- */
+html{
+    background-color: white;
+    font-family: 'Open Sans', sans-serif;
+    max-width: 45%;
+    margin: auto;
+    padding: 10px;
+}
+
+/* ----- First div ----- */
+#first-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#survey-title{
+    margin-top: 5vh;
+    font-weight: 100px;
+    font-size: 35px;
+    color: #45a049;
+}
+
+#survey-thank-note{
+    font-size: 15px;
+    color: #45a049;
+    margin-bottom: 10px;
+    font-style: oblique;
+}
+
+/* ----- Form ----- */
+#survey-form{
+    display: inline-block;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+input[type=text], input[type=email], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+label, p{
+    font-weight: bold;
+}
+  
+textarea{
+    min-height: 120px;
+    width: 95%;
+    padding: 0.625rem;
+    resize: vertical;
+    border: 0px;
+    border-radius: 5px;
+}
+
+input[type=submit] {
+    background-color: #45a049;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 10px 0;
+    display: inline-block;
+    color: white;
+    border: 0px;
+    font-size: 20px;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
