@@ -11,4 +11,4 @@ The project envolves working with adding image, links, lists and paragraphs.
 The project requires knowledge of HTML to create. In addition, a knowledge of CSS would be awesome to make the project look better.
 
 #### Demo
-Check the final result of the project [here](https://ahmedsomaa.github.io/HTML-Practice-Projects/project-1/).
+Check the final result of the project [here](https://ahmedsomaa.github.io/html-css-projects/project-1/).
